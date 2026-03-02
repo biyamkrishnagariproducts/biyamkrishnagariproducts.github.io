@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://biyamkrishnagariproducts.github.io/sitemap.xml
