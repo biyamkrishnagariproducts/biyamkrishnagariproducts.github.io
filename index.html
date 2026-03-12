@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biyam Krishna Gari Products | Farm Fresh Rice, Pickles, Karam Podi – Hyderabad</title>
+<meta name="description" content="Biyam Krishna Gari Products - Farm fresh BPT Sannalu rice, homemade Telugu pickles, urad dal & karam podi. Direct from village to home in Hyderabad.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&family=Noto+Sans+Telugu:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+:root{
+  --g:#1B4332;--gm:#2D6A4F;--gl:#40916C;--gp:#D8F3DC;
+  --gold:#C8960C;--goldf:#F4D03F;--goldp:#FEF9E7;
+  --cream:#FDFBF7;--white:#FFFFFF;--dark:#0D1F13;
+  --t1:#1C2B1F;--t2:#4A5E50;--t3:#8FA897;
+  --bd:#E4EDE6;--sf:#F5FAF6;
+  --r:16px;--rl:24px;
+  --sh1:0 2px 12px rgba(27,67,50,.08);
+  --sh2:0 8px 32px rgba(27,67,50,.14);
+  --sh3:0 24px 64px rgba(27,67,50,.2);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Outfit',sans-serif;background:var(--cream);color:var(--t1);line-height:1.6;overflow-x:hidden}
+.tel{font-family:'Noto Sans Telugu',sans-serif}
+
+/* ── TOP BAR ── */
+.topbar{
+  background:var(--g);color:white;padding:9px 0;
+  font-size:13px;font-weight:500;
+  display:flex;align-items:center;justify-content:center;gap:36px;
+}
+.topbar a{color:var(--goldf);text-decoration:none;font-weight:700}
+.topbar span{display:flex;align-items:center;gap:7px;opacity:.92}
+.topbar i{font-size:14px;opacity:.8}
+
+/* ── HEADER ── */
+.hdr{
+  position:sticky;top:0;z-index:200;
+  background:var(--white);
+  border-bottom:1px solid rgba(27,67,50,.08);
+  box-shadow:0 2px 20px rgba(27,67,50,.07);
+}
+.hdr-in{
+  max-width:1400px;margin:0 auto;padding:0 36px;
+  display:flex;align-items:center;gap:20px;height:74px;
+}
+.logo{display:flex;align-items:center;gap:13px;text-decoration:none;flex-shrink:0}
+.logo img{
+  width:52px;height:52px;border-radius:13px;object-fit:cover;
+  border:2.5px solid var(--gp);
+  box-shadow:0 4px 14px rgba(27,67,50,.15);
+}
+.logo-txt{line-height:1}
+.logo-nm{
+  font-family:'Cormorant Garamond',serif;font-size:19px;
+  font-weight:800;color:var(--g);letter-spacing:.3px;
+}
+.logo-sb{font-size:10px;color:var(--gold);font-weight:700;letter-spacing:1.8px;text-transform:uppercase;margin-top:2px}
+.srch{flex:1;max-width:500px;position:relative}
+.srch input{
+  width:100%;padding:12px 50px 12px 20px;
+  border:2px solid var(--bd);border-radius:50px;
+  font-size:14px;font-family:'Outfit',sans-serif;
+  background:var(--sf);transition:.2s;outline:none;color:var(--t1);
+}
+.srch input:focus{border-color:var(--gl);background:var(--white)}
+.srch button{
+  position:absolute;right:5px;top:50%;transform:translateY(-50%);
+  background:var(--g);border:none;border-radius:50px;
+  width:38px;height:38px;cursor:pointer;color:white;font-size:14px;
+  display:flex;align-items:center;justify-content:center;
+  transition:.2s;
+}
+.srch button:hover{background:var(--gm)}
+.hdr-acts{display:flex;align-items:center;gap:12px;margin-left:auto;flex-shrink:0}
+.hbtn{
+  display:flex;align-items:center;gap:8px;
+  padding:11px 22px;border-radius:50px;
+  font-size:13px;font-weight:700;text-decoration:none;
+  transition:.25s;cursor:pointer;border:none;font-family:'Outfit',sans-serif;
+  white-space:nowrap;
+}
+.hbtn-call{background:var(--sf);color:var(--g);border:2px solid var(--bd)}
+.hbtn-call:hover{border-color:var(--g);background:var(--gp)}
+.hbtn-wa{
+  background:linear-gradient(135deg,#25D366,#128C7E);
+  color:white;box-shadow:0 4px 18px rgba(37,211,102,.3);
+}
+.hbtn-wa:hover{transform:translateY(-2px);box-shadow:0 6px 26px rgba(37,211,102,.4)}
+.mob-btn{display:none;background:none;border:none;font-size:24px;color:var(--g);cursor:pointer;padding:4px}
+
+/* ── NAV TABS — PREMIUM ── */
+.nav{
+  background:var(--dark);
+  box-shadow:0 3px 16px rgba(0,0,0,.3);
+  position:relative;z-index:199;
+}
+.nav-in{
+  max-width:1400px;margin:0 auto;padding:0 36px;
+  display:flex;align-items:center;overflow-x:auto;
+  scrollbar-width:none;
+}
+.nav-in::-webkit-scrollbar{display:none}
+.ntab{
+  display:flex;align-items:center;gap:8px;
+  padding:15px 22px;color:rgba(255,255,255,.62);
+  font-size:13px;font-weight:600;text-decoration:none;
+  white-space:nowrap;transition:all .25s;
+  border-bottom:3px solid transparent;
+  position:relative;
+}
+.ntab:hover{color:rgba(255,255,255,.92);background:rgba(255,255,255,.05)}
+.ntab.active{
+  color:var(--white);
+  border-bottom-color:var(--goldf);
+  background:rgba(255,255,255,.07);
+}
+.ntab i{font-size:14px;transition:.25s}
+.ntab.active i{color:var(--goldf)}
+
+/* Tab highlight pills for category tabs */
+.ntab.cat-rice.active{border-bottom-color:#F59E0B}
+.ntab.cat-urad.active{border-bottom-color:#818CF8}
+.ntab.cat-pickles.active{border-bottom-color:#F472B6}
+.ntab.cat-karam.active{border-bottom-color:#FB923C}
+
+/* ── HERO ── */
+.hero{
+  background:linear-gradient(140deg,#0D2B1A 0%,#1B4332 45%,#245C3F 100%);
+  min-height:480px;display:flex;align-items:center;
+  position:relative;overflow:hidden;
+}
+.hero-orb1{
+  position:absolute;width:500px;height:500px;border-radius:50%;
+  background:radial-gradient(circle,rgba(212,168,83,.12) 0%,transparent 70%);
+  top:-100px;right:300px;pointer-events:none;
+}
+.hero-orb2{
+  position:absolute;width:300px;height:300px;border-radius:50%;
+  background:radial-gradient(circle,rgba(64,145,108,.2) 0%,transparent 70%);
+  bottom:-50px;left:100px;pointer-events:none;
+}
+.hero-grid{
+  position:absolute;inset:0;opacity:.03;
+  background-image:
+    linear-gradient(rgba(255,255,255,1) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,1) 1px,transparent 1px);
+  background-size:60px 60px;
+}
+.hero-in{
+  max-width:1400px;margin:0 auto;padding:56px 36px;
+  display:grid;grid-template-columns:1fr 1.05fr;gap:56px;
+  align-items:center;position:relative;z-index:1;width:100%;
+}
+.hero-badge{
+  display:inline-flex;align-items:center;gap:8px;
+  background:rgba(200,150,12,.15);
+  border:1px solid rgba(200,150,12,.35);
+  padding:7px 20px;border-radius:50px;
+  color:var(--goldf);font-size:11px;font-weight:800;
+  letter-spacing:2px;text-transform:uppercase;margin-bottom:22px;
+}
+.hero-badge i{font-size:12px}
+.hero-title{
+  font-family:'Cormorant Garamond',serif;
+  font-size:58px;font-weight:800;color:white;line-height:1.06;
+  margin-bottom:10px;
+}
+.hero-title .hl{color:var(--goldf);display:block}
+.hero-sub{
+  font-family:'Noto Sans Telugu',sans-serif;
+  font-size:17px;color:rgba(255,255,255,.65);
+  margin-bottom:26px;font-weight:400;
+}
+.hero-feats{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:34px}
+.hfeat{
+  display:flex;align-items:center;gap:7px;
+  background:rgba(255,255,255,.09);
+  border:1px solid rgba(255,255,255,.14);
+  padding:8px 16px;border-radius:50px;
+  color:white;font-size:12.5px;font-weight:500;
+}
+.hfeat i{color:var(--goldf);font-size:13px}
+.hero-ctas{display:flex;gap:14px;flex-wrap:wrap}
+.cta1{
+  display:inline-flex;align-items:center;gap:10px;
+  background:linear-gradient(135deg,#25D366,#128C7E);
+  color:white;padding:15px 32px;border-radius:50px;
+  font-size:15px;font-weight:800;text-decoration:none;
+  box-shadow:0 6px 26px rgba(37,211,102,.38);transition:.3s;
+}
+.cta1:hover{transform:translateY(-3px);box-shadow:0 10px 36px rgba(37,211,102,.48)}
+.cta2{
+  display:inline-flex;align-items:center;gap:10px;
+  background:rgba(255,255,255,.12);
+  border:2px solid rgba(255,255,255,.28);
+  color:white;padding:15px 30px;border-radius:50px;
+  font-size:15px;font-weight:700;text-decoration:none;transition:.3s;
+}
+.cta2:hover{background:rgba(255,255,255,.22)}
+
+/* ── HERO PRODUCT CARDS (real images) ── */
+.hero-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.hcard{
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.14);
+  backdrop-filter:blur(16px);
+  border-radius:20px;overflow:hidden;
+  text-decoration:none;transition:.35s;
+  position:relative;
+}
+.hcard:hover{
+  background:rgba(255,255,255,.12);
+  transform:translateY(-6px);
+  box-shadow:0 16px 48px rgba(0,0,0,.3);
+  border-color:rgba(255,255,255,.28);
+}
+.hcard-img{
+  height:130px;display:flex;align-items:center;
+  justify-content:center;padding:12px;
+  position:relative;overflow:hidden;
+}
+.hcard.rice .hcard-img{background:linear-gradient(135deg,rgba(254,243,199,.18),rgba(253,230,138,.1))}
+.hcard.urad .hcard-img{background:linear-gradient(135deg,rgba(199,210,254,.18),rgba(165,180,252,.1))}
+.hcard.pickles .hcard-img{background:linear-gradient(135deg,rgba(253,207,232,.18),rgba(249,168,212,.1))}
+.hcard.karam .hcard-img{background:linear-gradient(135deg,rgba(254,215,170,.18),rgba(253,186,116,.1))}
+.hcard-img img{
+  height:105px;width:auto;max-width:160px;
+  object-fit:contain;
+  transition:.35s;filter:drop-shadow(0 6px 14px rgba(0,0,0,.25));
+}
+.hcard:hover .hcard-img img{transform:scale(1.08) translateY(-3px)}
+.hcard-body{padding:14px 16px 16px}
+.hcard-name{
+  font-size:14px;font-weight:800;color:white;
+  margin-bottom:5px;
+}
+.hcard-row{
+  display:flex;align-items:center;justify-content:space-between;
+}
+.hcard-count{
+  font-size:10px;color:rgba(255,255,255,.5);
+  background:rgba(255,255,255,.1);
+  padding:2px 9px;border-radius:20px;font-weight:600;
+}
+.hcard-price{font-size:13px;font-weight:700;color:var(--goldf)}
+
+/* ── MARQUEE ── */
+.mq{
+  background:var(--goldp);
+  border-top:2.5px solid var(--gold);
+  border-bottom:2.5px solid var(--gold);
+  padding:11px 0;overflow:hidden;
+}
+.mq-track{
+  display:flex;width:max-content;
+  animation:mq 38s linear infinite;
+}
+.mq:hover .mq-track{animation-play-state:paused}
+.mq-item{
+  display:flex;align-items:center;gap:9px;
+  padding:0 28px;font-size:13px;font-weight:600;
+  color:var(--g);white-space:nowrap;
+  border-right:1px solid rgba(200,150,12,.25);
+}
+.mq-item i{color:var(--gold);font-size:14px}
+.mq-item .pr{color:var(--gl);font-weight:800}
+@keyframes mq{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+/* ── SECTIONS ── */
+.sec{padding:72px 36px}
+.shead{text-align:center;margin-bottom:52px}
+.seye{
+  display:inline-flex;align-items:center;gap:7px;
+  background:var(--gp);color:var(--g);
+  padding:6px 18px;border-radius:50px;
+  font-size:11px;font-weight:800;letter-spacing:2px;
+  text-transform:uppercase;margin-bottom:14px;
+}
+.stitle{
+  font-family:'Cormorant Garamond',serif;
+  font-size:44px;font-weight:800;color:var(--dark);line-height:1.12;
+}
+.stitle .hl{color:var(--g)}
+.ssub{font-family:'Noto Sans Telugu',sans-serif;color:var(--t2);font-size:16px;margin-top:9px}
+.sline{
+  width:64px;height:3.5px;margin:16px auto 0;border-radius:3px;
+  background:linear-gradient(90deg,var(--g),var(--gold));
+}
+
+/* ── CATEGORY CARDS ── */
+.cat-grid{
+  max-width:1380px;margin:0 auto;
+  display:grid;grid-template-columns:repeat(4,1fr);gap:22px;
+}
+.ccat{
+  border-radius:22px;overflow:hidden;text-decoration:none;
+  box-shadow:var(--sh1);transition:.38s;border:1.5px solid var(--bd);
+}
+.ccat:hover{transform:translateY(-10px);box-shadow:var(--sh3);border-color:var(--gl)}
+.ccat-top{
+  height:175px;display:flex;align-items:center;
+  justify-content:center;position:relative;overflow:hidden;padding:16px;
+}
+.ccat.rice .ccat-top{background:linear-gradient(135deg,#FEF9E7,#FDE68A)}
+.ccat.urad .ccat-top{background:linear-gradient(135deg,#EEF2FF,#C7D2FE)}
+.ccat.pickles .ccat-top{background:linear-gradient(135deg,#FDF2F8,#FBCFE8)}
+.ccat.karam .ccat-top{background:linear-gradient(135deg,#FFF7ED,#FED7AA)}
+.ccat-top img{
+  height:130px;width:auto;max-width:200px;
+  object-fit:contain;transition:.38s;
+  filter:drop-shadow(0 8px 20px rgba(0,0,0,.12));
+}
+.ccat:hover .ccat-top img{transform:scale(1.1) translateY(-4px)}
+.cbadge{
+  position:absolute;top:12px;right:12px;
+  padding:5px 13px;border-radius:20px;font-size:11px;font-weight:800;color:white;
+}
+.ccat.rice .cbadge{background:var(--gold)}
+.ccat.urad .cbadge{background:#6366F1}
+.ccat.pickles .cbadge{background:#EC4899}
+.ccat.karam .cbadge{background:#EA580C}
+.ccat-body{padding:20px 18px;background:var(--white)}
+.ccat-name{font-size:17px;font-weight:800;color:var(--dark);margin-bottom:4px}
+.ccat-desc{font-size:12px;color:var(--t2);margin-bottom:14px}
+.ccat-ft{display:flex;align-items:center;justify-content:space-between}
+.ccat-from{font-size:12px;color:var(--t3)}
+.ccat-from strong{color:var(--gl);font-size:15px;font-weight:800}
+.carr{
+  width:36px;height:36px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:14px;color:white;transition:.3s;
+}
+.ccat:hover .carr{transform:translateX(4px)}
+.ccat.rice .carr{background:var(--gold)}
+.ccat.urad .carr{background:#6366F1}
+.ccat.pickles .carr{background:#EC4899}
+.ccat.karam .carr{background:#EA580C}
+
+/* ── PROMISE BAR ── */
+.prom{
+  background:linear-gradient(135deg,var(--g),var(--gm));
+  padding:44px 36px;
+}
+.prom-in{
+  max-width:1200px;margin:0 auto;
+  display:grid;grid-template-columns:repeat(4,1fr);gap:22px;
+}
+.pitem{
+  display:flex;align-items:center;gap:15px;
+  background:rgba(255,255,255,.09);
+  border:1px solid rgba(255,255,255,.14);
+  border-radius:16px;padding:18px 20px;transition:.3s;
+}
+.pitem:hover{background:rgba(255,255,255,.15);transform:translateY(-4px)}
+.picon{
+  width:52px;height:52px;min-width:52px;
+  background:rgba(255,255,255,.15);border-radius:12px;
+  display:flex;align-items:center;justify-content:center;font-size:24px;
+}
+.ptext strong{display:block;color:white;font-size:15px;font-weight:800;margin-bottom:3px}
+.ptext span{color:rgba(255,255,255,.62);font-size:12px}
+
+/* ── AUTO-SCROLL CARDS ── */
+.scrollsec{padding:72px 0;background:var(--sf)}
+.scroll-head{
+  max-width:1380px;margin:0 auto 36px;padding:0 36px;
+  display:flex;align-items:flex-end;justify-content:space-between;
+}
+.view-all{
+  display:inline-flex;align-items:center;gap:7px;
+  color:var(--g);font-weight:700;font-size:13px;text-decoration:none;
+  padding:10px 22px;border:2px solid var(--g);border-radius:50px;transition:.22s;
+}
+.view-all:hover{background:var(--g);color:white}
+.scroll-wrap{overflow:hidden;position:relative}
+.scroll-wrap::before,.scroll-wrap::after{
+  content:'';position:absolute;top:0;bottom:0;width:90px;z-index:5;pointer-events:none;
+}
+.scroll-wrap::before{left:0;background:linear-gradient(to right,var(--sf),transparent)}
+.scroll-wrap::after{right:0;background:linear-gradient(to left,var(--sf),transparent)}
+.scroll-track{
+  display:flex;gap:20px;padding:10px 90px 18px;
+  animation:scr 45s linear infinite;width:max-content;
+}
+.scroll-track:hover{animation-play-state:paused}
+@keyframes scr{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+/* Product Card */
+.pc{
+  width:235px;min-width:235px;background:var(--white);
+  border-radius:20px;overflow:hidden;
+  border:1.5px solid var(--bd);
+  box-shadow:var(--sh1);transition:.35s;flex-shrink:0;
+}
+.pc:hover{transform:translateY(-9px);box-shadow:var(--sh2);border-color:var(--gl)}
+.pc-img{
+  height:165px;display:flex;align-items:center;
+  justify-content:center;position:relative;overflow:hidden;
+}
+.pc-img img{
+  height:125px;width:auto;max-width:170px;
+  object-fit:contain;transition:.35s;
+  filter:drop-shadow(0 4px 10px rgba(0,0,0,.1));
+}
+.pc:hover .pc-img img{transform:scale(1.08)}
+.pc-disc{
+  position:absolute;top:11px;left:11px;
+  background:#C0392B;color:white;
+  padding:4px 10px;border-radius:7px;font-size:11px;font-weight:800;
+}
+.pc-tag{
+  position:absolute;bottom:9px;right:9px;
+  background:var(--g);color:white;
+  padding:3px 10px;border-radius:6px;font-size:10px;font-weight:700;
+}
+.pc-body{padding:15px}
+.pc-name{font-size:14px;font-weight:800;color:var(--dark);margin-bottom:3px}
+.pc-tel{font-family:'Noto Sans Telugu',sans-serif;font-size:11px;color:var(--t3);margin-bottom:10px}
+.pc-pr{display:flex;align-items:center;gap:8px;margin-bottom:12px}
+.pc-pr .cur{font-size:19px;font-weight:900;color:var(--gl)}
+.pc-pr .orig{font-size:13px;color:var(--t3);text-decoration:line-through}
+.pc-btn{
+  display:flex;align-items:center;justify-content:center;gap:7px;
+  width:100%;padding:10px;border-radius:10px;
+  background:linear-gradient(135deg,#25D366,#128C7E);
+  color:white;font-size:13px;font-weight:800;
+  text-decoration:none;transition:.22s;border:none;cursor:pointer;
+}
+.pc-btn:hover{opacity:.9;transform:scale(1.02)}
+
+/* ── RICE SECTION ── */
+.rice-sec{padding:72px 36px;background:linear-gradient(175deg,#FFFBEB 0%,#FEF3C7 100%)}
+.pg{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.pcard{
+  background:var(--white);border-radius:22px;overflow:hidden;
+  border:1.5px solid var(--bd);
+  box-shadow:var(--sh1);transition:.38s;
+}
+.pcard:hover{transform:translateY(-10px);box-shadow:var(--sh2)}
+.pcard-top{
+  height:205px;display:flex;align-items:center;
+  justify-content:center;position:relative;overflow:hidden;padding:20px;
+}
+.pcard-top img{
+  height:155px;width:auto;max-width:200px;object-fit:contain;
+  transition:.38s;filter:drop-shadow(0 8px 20px rgba(0,0,0,.12));
+}
+.pcard:hover .pcard-top img{transform:scale(1.08) translateY(-5px)}
+.pcard-top.rbg{background:linear-gradient(135deg,#FEF9E7,#FDE68A)}
+.pcard-top.ubg{background:linear-gradient(135deg,#EEF2FF,#C7D2FE)}
+.pd{
+  position:absolute;top:14px;left:14px;
+  background:var(--g);color:white;
+  padding:5px 13px;border-radius:8px;font-size:12px;font-weight:800;
+}
+.plbl{
+  position:absolute;top:14px;right:14px;
+  padding:5px 13px;border-radius:8px;font-size:11px;font-weight:800;color:white;
+}
+.pcard-body{padding:24px}
+.pcard-body .ptag{
+  display:inline-block;padding:4px 12px;border-radius:7px;
+  font-size:10px;font-weight:800;color:white;margin-bottom:10px;
+  letter-spacing:.5px;
+}
+.pcard-nm{font-size:21px;font-weight:900;color:var(--dark);margin-bottom:3px}
+.pcard-tel{font-family:'Noto Sans Telugu',sans-serif;font-size:14px;color:var(--gold);margin-bottom:10px}
+.pcard-desc{font-size:13px;color:var(--t2);margin-bottom:14px;line-height:1.75}
+.sizes{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:16px}
+.spill{
+  background:var(--gp);color:var(--g);
+  padding:6px 14px;border-radius:8px;font-size:11px;font-weight:700;
+}
+.prow{display:flex;align-items:center;gap:10px;margin-bottom:16px}
+.prow .cur{font-size:26px;font-weight:900;color:var(--gl)}
+.prow .orig{font-size:15px;color:var(--t3);text-decoration:line-through}
+.obt{
+  display:inline-flex;align-items:center;gap:9px;
+  background:linear-gradient(135deg,#25D366,#128C7E);
+  color:white;padding:13px 24px;border-radius:12px;
+  font-size:14px;font-weight:800;text-decoration:none;
+  box-shadow:0 4px 16px rgba(37,211,102,.3);transition:.3s;
+}
+.obt:hover{transform:translateY(-2px);box-shadow:0 6px 24px rgba(37,211,102,.42)}
+
+/* ── PICKLES ── */
+.pik-sec{padding:72px 36px;background:linear-gradient(175deg,#FDF2F8 0%,#FCE7F3 100%)}
+.ptabs{
+  max-width:1200px;margin:0 auto 30px;
+  display:flex;gap:10px;flex-wrap:wrap;justify-content:center;
+}
+.ptab{
+  padding:9px 24px;border-radius:50px;
+  border:2px solid var(--bd);background:var(--white);
+  font-size:13px;font-weight:700;cursor:pointer;
+  transition:.22s;color:var(--t2);
+}
+.ptab:hover,.ptab.active{background:var(--g);color:white;border-color:var(--g)}
+.pikgrid{
+  max-width:1200px;margin:0 auto;
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(265px,1fr));gap:18px;
+}
+.pikc{
+  background:var(--white);border-radius:16px;
+  display:flex;align-items:center;gap:14px;
+  padding:16px;border:1.5px solid var(--bd);
+  border-left:4px solid #EC4899;
+  box-shadow:var(--sh1);transition:.3s;
+}
+.pikc.veg{border-left-color:var(--gl)}
+.pikc:hover{transform:translateX(7px);box-shadow:var(--sh2)}
+.pikc img{
+  width:68px;height:68px;object-fit:contain;
+  border-radius:10px;flex-shrink:0;
+  filter:drop-shadow(0 3px 8px rgba(0,0,0,.1));
+}
+.pin-name{font-size:15px;font-weight:800;color:var(--dark);margin-bottom:2px}
+.pin-tel{font-family:'Noto Sans Telugu',sans-serif;font-size:11px;color:var(--t3);margin-bottom:7px}
+.pin-pr{display:flex;align-items:center;gap:7px;margin-bottom:6px}
+.pin-pr .cur{font-weight:800;color:var(--gl);font-size:16px}
+.pin-pr .orig{font-size:12px;color:var(--t3);text-decoration:line-through}
+.pin-sz{display:flex;gap:5px}
+.pisk{background:#FFF3E0;padding:3px 9px;border-radius:6px;font-size:10px;font-weight:700;color:#E65100}
+
+/* ── KARAM ── */
+.karam-sec{padding:72px 36px;background:linear-gradient(175deg,#FFF7ED 0%,#FFEDD5 100%)}
+.kgrid{
+  max-width:1200px;margin:0 auto;
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;
+}
+.kc{
+  background:var(--white);border-radius:20px;
+  padding:26px 18px;text-align:center;
+  border:1.5px solid var(--bd);
+  box-shadow:var(--sh1);transition:.38s;
+}
+.kc:hover{transform:translateY(-9px) rotate(1deg);box-shadow:var(--sh2);border-color:#EA580C}
+.kc img{
+  width:85px;height:85px;object-fit:contain;
+  margin:0 auto 14px;border-radius:14px;
+  filter:drop-shadow(0 4px 12px rgba(0,0,0,.1));
+  transition:.38s;
+}
+.kc:hover img{transform:scale(1.08)}
+.kc-nm{font-size:14px;font-weight:900;color:var(--dark);margin-bottom:4px}
+.kc-tel{font-family:'Noto Sans Telugu',sans-serif;font-size:11px;color:var(--t3);margin-bottom:10px}
+.kc-pr{display:flex;align-items:center;justify-content:center;gap:7px;margin-bottom:10px}
+.kc-pr .cur{font-weight:900;color:var(--gl);font-size:18px}
+.kc-pr .orig{font-size:12px;color:var(--t3);text-decoration:line-through}
+.kc-sz{
+  display:inline-block;background:linear-gradient(135deg,#EA580C,#C2400E);
+  color:white;padding:7px 16px;border-radius:10px;
+  font-size:11px;font-weight:700;margin-bottom:14px;
+}
+.kc-btn{
+  display:block;width:100%;padding:9px;border-radius:10px;
+  background:var(--g);color:white;font-size:12px;font-weight:800;
+  text-decoration:none;transition:.22s;
+}
+.kc-btn:hover{background:var(--gm)}
+
+/* ── WHY US ── */
+.why-sec{padding:72px 36px;background:var(--white)}
+.wgrid{
+  max-width:1100px;margin:0 auto;
+  display:grid;grid-template-columns:repeat(4,1fr);gap:22px;
+}
+.wc{
+  background:linear-gradient(140deg,#F0FDF4,#DCFCE7);
+  border-radius:20px;padding:30px 22px;text-align:center;
+  border:1.5px solid #BBF7D0;transition:.35s;
+}
+.wc:hover{transform:translateY(-7px);box-shadow:var(--sh2)}
+.wicon{font-size:44px;margin-bottom:14px}
+.wt{font-size:16px;font-weight:900;color:var(--dark);margin-bottom:8px}
+.wd{font-size:13px;color:var(--t2);line-height:1.75}
+
+/* ── DELIVERY ── */
+.del-sec{
+  background:linear-gradient(135deg,#007B8A,#004D55);
+  padding:52px 36px;text-align:center;
+}
+.del-sec h3{
+  font-family:'Cormorant Garamond',serif;
+  font-size:36px;font-weight:800;color:white;margin-bottom:8px;
+}
+.del-sec p{color:rgba(255,255,255,.68);font-size:14px;margin-bottom:26px}
+.dtags{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+.dtag{
+  background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);
+  padding:9px 20px;border-radius:50px;
+  color:white;font-size:13px;font-weight:600;transition:.25s;cursor:pointer;
+}
+.dtag:hover{background:white;color:#004D55}
+
+/* ── ORDER ── */
+.ord-sec{
+  padding:72px 36px;
+  background:linear-gradient(140deg,var(--g) 0%,var(--gm) 100%);
+}
+.ord-in{
+  max-width:1240px;margin:0 auto;
+  display:grid;grid-template-columns:1fr 1.35fr;gap:52px;align-items:start;
+}
+.oinfo{color:white}
+.oinfo h2{
+  font-family:'Cormorant Garamond',serif;
+  font-size:44px;font-weight:800;line-height:1.2;margin-bottom:12px;
+}
+.oinfo p{color:rgba(255,255,255,.72);font-size:15px;margin-bottom:28px;line-height:1.75}
+.ccs{display:flex;flex-direction:column;gap:13px}
+.cc{
+  display:flex;align-items:center;gap:14px;
+  background:rgba(255,255,255,.09);
+  border:1px solid rgba(255,255,255,.14);
+  border-radius:14px;padding:16px 18px;transition:.3s;
+}
+.cc:hover{background:rgba(255,255,255,.16);transform:translateX(6px)}
+.ccico{
+  width:46px;height:46px;background:var(--gold);border-radius:10px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:20px;color:var(--dark);flex-shrink:0;
+}
+.ccinfo h4{font-size:12px;color:rgba(255,255,255,.62);margin-bottom:2px;font-weight:600}
+.ccinfo a,.ccinfo p{color:white;font-size:15px;font-weight:800;text-decoration:none}
+.srow{display:flex;gap:10px;margin-top:24px}
+.sb{
+  width:44px;height:44px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:18px;color:white;text-decoration:none;transition:.3s;
+}
+.sb:hover{transform:scale(1.15)}
+.sb.fb{background:#1877F2}.sb.ig{background:linear-gradient(45deg,#f09433,#dc2743,#bc1888)}
+.sb.yt{background:#FF0000}.sb.wa{background:#25D366}
+
+/* Order Form */
+.oform{
+  background:var(--white);border-radius:24px;
+  padding:38px;box-shadow:0 28px 80px rgba(0,0,0,.22);
+}
+.oform h3{
+  font-family:'Cormorant Garamond',serif;
+  font-size:30px;font-weight:800;color:var(--dark);margin-bottom:4px;
+}
+.oform .fsub{color:var(--t2);font-size:13px;margin-bottom:24px}
+.frow{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
+.fg{display:flex;flex-direction:column;gap:6px}
+.fg label{font-size:13px;font-weight:700;color:var(--t1)}
+.fg input,.fg select,.fg textarea{
+  padding:12px 16px;border:2px solid var(--bd);
+  border-radius:10px;font-size:14px;font-family:'Outfit',sans-serif;
+  background:var(--sf);outline:none;transition:.2s;
+}
+.fg input:focus,.fg select:focus,.fg textarea:focus{border-color:var(--gl);background:var(--white)}
+.ppick{
+  background:var(--goldp);border-radius:14px;
+  padding:18px;margin-bottom:16px;
+}
+.ppick-hd{
+  display:flex;align-items:center;gap:8px;
+  font-size:14px;font-weight:800;color:var(--t1);margin-bottom:16px;
+}
+.pgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.pi{
+  background:var(--white);border-radius:10px;
+  padding:12px;border:2px solid var(--bd);
+}
+.pi-hd{display:flex;align-items:center;gap:7px;margin-bottom:8px;font-size:13px;font-weight:800;color:var(--t1)}
+.pi select{
+  width:100%;padding:9px 12px;border:2px solid var(--bd);
+  border-radius:8px;font-size:12px;font-family:'Outfit',sans-serif;
+  background:var(--sf);cursor:pointer;outline:none;
+}
+.pi select:focus{border-color:var(--gl)}
+.submt{
+  width:100%;padding:17px;
+  background:linear-gradient(135deg,var(--g),var(--gm));
+  color:white;border:none;border-radius:13px;
+  font-size:15px;font-weight:900;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;gap:12px;
+  transition:.3s;font-family:'Outfit',sans-serif;
+}
+.submt:hover{transform:translateY(-2px);box-shadow:0 9px 32px rgba(27,67,50,.38)}
+.submt i{font-size:20px}
+
+/* ── FOOTER ── */
+.ft{background:#0B1A0F;padding:64px 36px 28px}
+.ft-in{max-width:1400px;margin:0 auto}
+.ft-grid{
+  display:grid;grid-template-columns:1.8fr 1fr 1fr 1.2fr;
+  gap:52px;margin-bottom:44px;
+}
+.fb p{font-size:14px;color:rgba(255,255,255,.48);line-height:1.85;max-width:270px}
+.fb .ftag{
+  display:inline-block;
+  background:rgba(200,150,12,.14);border:1px solid rgba(200,150,12,.3);
+  color:var(--goldf);padding:5px 15px;border-radius:20px;
+  font-size:11px;font-weight:700;letter-spacing:1px;margin-top:14px;
+}
+.fcol h4{font-size:12px;font-weight:800;color:var(--goldf);letter-spacing:2px;text-transform:uppercase;margin-bottom:18px}
+.fcol ul{list-style:none}
+.fcol ul li{margin-bottom:11px}
+.fcol ul li a{
+  color:rgba(255,255,255,.5);text-decoration:none;
+  font-size:13px;transition:.22s;
+  display:flex;align-items:center;gap:8px;
+}
+.fcol ul li a:hover{color:white;padding-left:5px}
+.fct p{font-size:13px;color:rgba(255,255,255,.5);margin-bottom:11px;display:flex;align-items:center;gap:8px}
+.fct a{color:white;text-decoration:none}
+.ft-bot{
+  border-top:1px solid rgba(255,255,255,.07);
+  padding-top:24px;
+  display:flex;align-items:center;justify-content:space-between;
+  flex-wrap:wrap;gap:12px;
+}
+.ft-bot p{color:rgba(255,255,255,.32);font-size:13px}
+
+/* ── WA FAB ── */
+.wafab{
+  position:fixed;bottom:28px;right:28px;
+  width:64px;height:64px;background:#25D366;
+  border-radius:50%;display:flex;align-items:center;justify-content:center;
+  box-shadow:0 6px 32px rgba(37,211,102,.52);z-index:999;
+  text-decoration:none;transition:.3s;
+}
+.wafab:hover{transform:scale(1.1)}
+.wafab i{color:white;font-size:33px}
+.wafab::before{
+  content:'';position:absolute;width:100%;height:100%;
+  border-radius:50%;background:#25D366;
+  animation:wap 2s infinite;z-index:-1;
+}
+@keyframes wap{0%{transform:scale(1);opacity:.7}100%{transform:scale(1.65);opacity:0}}
+
+/* ── ANIMATIONS ── */
+.rv{opacity:0;transform:translateY(26px);transition:all .65s cubic-bezier(.25,.46,.45,.94)}
+.rv.in{opacity:1;transform:translateY(0)}
+.rv.d1{transition-delay:.1s}.rv.d2{transition-delay:.2s}
+.rv.d3{transition-delay:.3s}.rv.d4{transition-delay:.4s}
+
+/* ── RESPONSIVE ── */
+@media(max-width:1100px){
+  .cat-grid{grid-template-columns:repeat(2,1fr)}
+  .pg{grid-template-columns:repeat(2,1fr)}
+  .prom-in{grid-template-columns:repeat(2,1fr)}
+  .wgrid{grid-template-columns:repeat(2,1fr)}
+  .ft-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:900px){
+  .hero-in{grid-template-columns:1fr;gap:30px}
+  .hero-cards{display:none}
+  .hero-title{font-size:42px}
+  .ord-in{grid-template-columns:1fr}
+}
+@media(max-width:680px){
+  .hdr-in{padding:0 18px;gap:10px}
+  .srch{display:none}
+  .mob-btn{display:block}
+  .nav-in{padding:0 18px}
+  .cat-grid{grid-template-columns:1fr 1fr;gap:13px}
+  .pg{grid-template-columns:1fr}
+  .topbar{display:none}
+  .sec{padding:50px 20px}
+  .stitle{font-size:34px}
+  .wgrid{grid-template-columns:1fr 1fr}
+  .ft-grid{grid-template-columns:1fr}
+  .prom-in{grid-template-columns:1fr 1fr}
+  .oform{padding:22px}
+  .frow{grid-template-columns:1fr}
+  .pgrid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <span><i class="fas fa-truck"></i> Free Delivery across Hyderabad</span>
+  <span><i class="fab fa-whatsapp"></i> Order via WhatsApp: <a href="https://wa.me/917993822600">+91 79938 22600</a></span>
+  <span><i class="fas fa-clock"></i> Open: 8 AM – 9 PM Daily</span>
+</div>
+
+<!-- HEADER -->
+<header class="hdr">
+  <div class="hdr-in">
+    <a href="#home" class="logo">
+      <img src="https://i.ibb.co/ymtC805y/logo.jpg" alt="BKGR Logo">
+      <div class="logo-txt">
+        <div class="logo-nm">Biyam Krishna Gari</div>
+        <div class="logo-sb">Farm To Home • Since 2020</div>
+      </div>
+    </a>
+    <div class="srch">
+      <input type="text" placeholder="Search rice, pickles, karam podi…">
+      <button><i class="fas fa-search"></i></button>
+    </div>
+    <div class="hdr-acts">
+      <a href="tel:+917993822600" class="hbtn hbtn-call"><i class="fas fa-phone"></i> Call Now</a>
+      <a href="https://wa.me/917993822600" class="hbtn hbtn-wa" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp Order</a>
+    </div>
+    <button class="mob-btn"><i class="fas fa-bars"></i></button>
+  </div>
+</header>
+
+<!-- NAV TABS — PREMIUM HIGHLIGHTED -->
+<nav class="nav">
+  <div class="nav-in">
+    <a href="#home" class="ntab active"><i class="fas fa-home"></i> Home</a>
+    <a href="#categories" class="ntab"><i class="fas fa-th-large"></i> All Products</a>
+    <a href="#rice" class="ntab cat-rice"><i class="fas fa-seedling"></i> Rice</a>
+    <a href="#minapappu" class="ntab cat-urad"><i class="fas fa-circle-dot"></i> Urad Dal</a>
+    <a href="#pickles" class="ntab cat-pickles"><i class="fas fa-jar"></i> Pickles</a>
+    <a href="#karam" class="ntab cat-karam"><i class="fas fa-pepper-hot"></i> Karam Podi</a>
+    <a href="#contact" class="ntab"><i class="fas fa-phone-flip"></i> Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-orb1"></div>
+  <div class="hero-orb2"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-in">
+    <div class="hero-left">
+      <div class="hero-badge"><i class="fas fa-certificate"></i> 100% Pure &amp; Homemade</div>
+      <h1 class="hero-title">
+        Biyam Krishna Gari
+        <span class="hl">Products</span>
+      </h1>
+      <p class="hero-sub tel">మీ ఆరోగ్యమే మా లక్ష్యం — Village Fresh, Home Delivered</p>
+      <div class="hero-feats">
+        <span class="hfeat"><i class="fas fa-check-circle"></i> No Preservatives</span>
+        <span class="hfeat"><i class="fas fa-truck"></i> Free Delivery</span>
+        <span class="hfeat"><i class="fas fa-leaf"></i> Gingelly Oil Only</span>
+        <span class="hfeat"><i class="fas fa-weight-hanging"></i> Honest Weight</span>
+        <span class="hfeat"><i class="fas fa-calendar-check"></i> Made on Order</span>
+      </div>
+      <div class="hero-ctas">
+        <a href="https://wa.me/917993822600?text=Hi, I want to place an order!" class="cta1" target="_blank"><i class="fab fa-whatsapp"></i> Order on WhatsApp</a>
+        <a href="#categories" class="cta2"><i class="fas fa-shopping-basket"></i> View All Products</a>
+      </div>
+    </div>
+    <!-- REAL PRODUCT COMBO IMAGES -->
+    <div class="hero-cards">
+      <a href="#rice" class="hcard rice">
+        <div class="hcard-img">
+          <img src="https://i.ibb.co/wFRGvPvQ/rice-bag.png" alt="Premium Rice">
+        </div>
+        <div class="hcard-body">
+          <div class="hcard-name">Premium Rice</div>
+          <div class="hcard-row">
+            <span class="hcard-count">3 Varieties</span>
+            <span class="hcard-price">From ₹290 / 5KG</span>
+          </div>
+        </div>
+      </a>
+      <a href="#minapappu" class="hcard urad">
+        <div class="hcard-img">
+          <img src="https://i.ibb.co/qLhm6r9x/urad-bag.png" alt="Urad Dal">
+        </div>
+        <div class="hcard-body">
+          <div class="hcard-name">Urad Dal</div>
+          <div class="hcard-row">
+            <span class="hcard-count">2 Types</span>
+            <span class="hcard-price">From ₹110 / KG</span>
+          </div>
+        </div>
+      </a>
+      <a href="#pickles" class="hcard pickles">
+        <div class="hcard-img">
+          <img src="https://i.ibb.co/B54brGHF/mixed.png" alt="Homemade Pickles">
+        </div>
+        <div class="hcard-body">
+          <div class="hcard-name">Homemade Pickles</div>
+          <div class="hcard-row">
+            <span class="hcard-count">12 Varieties</span>
+            <span class="hcard-price">From ₹160 / 250g</span>
+          </div>
+        </div>
+      </a>
+      <a href="#karam" class="hcard karam">
+        <div class="hcard-img">
+          <img src="https://i.ibb.co/0p3gT5ZF/all-mix.png" alt="Karam Podi">
+        </div>
+        <div class="hcard-body">
+          <div class="hcard-name">Karam Podi</div>
+          <div class="hcard-row">
+            <span class="hcard-count">8 Flavours</span>
+            <span class="hcard-price">From ₹85 / 100g</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE PRICE STRIP -->
+<div class="mq">
+  <div class="mq-track">
+    <span class="mq-item"><i class="fas fa-seedling"></i> Brown Rice 5KG <span class="pr">₹290</span></span>
+    <span class="mq-item"><i class="fas fa-seedling"></i> Semi Polished Rice 5KG <span class="pr">₹310</span></span>
+    <span class="mq-item"><i class="fas fa-seedling"></i> Full Polished Rice 5KG <span class="pr">₹340</span></span>
+    <span class="mq-item"><i class="fas fa-circle-dot"></i> Urad Dal Split 1KG <span class="pr">₹110</span></span>
+    <span class="mq-item"><i class="fas fa-circle-dot"></i> Urad Round 1KG <span class="pr">₹125</span></span>
+    <span class="mq-item"><i class="fas fa-jar"></i> Avakaya 250g <span class="pr">₹180</span></span>
+    <span class="mq-item"><i class="fas fa-jar"></i> Gongura Pickle 250g <span class="pr">₹170</span></span>
+    <span class="mq-item"><i class="fas fa-jar"></i> Chicken Pickle 250g <span class="pr">₹280</span></span>
+    <span class="mq-item"><i class="fas fa-jar"></i> Mutton Pickle 250g <span class="pr">₹550</span></span>
+    <span class="mq-item"><i class="fas fa-pepper-hot"></i> Kandi Podi 100g <span class="pr">₹85</span></span>
+    <span class="mq-item"><i class="fas fa-pepper-hot"></i> Karivepaku Podi 100g <span class="pr">₹85</span></span>
+    <span class="mq-item"><i class="fas fa-truck"></i> FREE Delivery in Hyderabad</span>
+    <span class="mq-item"><i class="fas fa-star"></i> 100% Homemade • No Chemicals</span>
+    <!-- duplicate -->
+    <span class="mq-item"><i class="fas fa-seedling"></i> Brown Rice 5KG <span class="pr">₹290</span></span>
+    <span class="mq-item"><i class="fas fa-seedling"></i> Semi Polished Rice 5KG <span class="pr">₹310</span></span>
+    <span class="mq-item"><i class="fas fa-seedling"></i> Full Polished Rice 5KG <span class="pr">₹340</span></span>
+    <span class="mq-item"><i class="fas fa-circle-dot"></i> Urad Dal Split 1KG <span class="pr">₹110</span></span>
+    <span class="mq-item"><i class="fas fa-circle-dot"></i> Urad Round 1KG <span class="pr">₹125</span></span>
+    <span class="mq-item"><i class="fas fa-jar"></i> Avakaya 250g <span class="pr">₹180</span></span>
+    <span class="mq-item"><i class="fas fa-jar"></i> Gongura Pickle 250g <span class="pr">₹170</span></span>
+    <span class="mq-item"><i class="fas fa-jar"></i> Chicken Pickle 250g <span class="pr">₹280</span></span>
+    <span class="mq-item"><i class="fas fa-jar"></i> Mutton Pickle 250g <span class="pr">₹550</span></span>
+    <span class="mq-item"><i class="fas fa-pepper-hot"></i> Kandi Podi 100g <span class="pr">₹85</span></span>
+    <span class="mq-item"><i class="fas fa-pepper-hot"></i> Karivepaku Podi 100g <span class="pr">₹85</span></span>
+    <span class="mq-item"><i class="fas fa-truck"></i> FREE Delivery in Hyderabad</span>
+    <span class="mq-item"><i class="fas fa-star"></i> 100% Homemade • No Chemicals</span>
+  </div>
+</div>
+
+<!-- CATEGORIES -->
+<section class="sec" id="categories">
+  <div class="shead rv">
+    <div class="seye"><i class="fas fa-th-large"></i> Shop by Category</div>
+    <h2 class="stitle">Our <span class="hl">Product Range</span></h2>
+    <p class="ssub">Direct from farm — pure, natural, no middleman</p>
+    <div class="sline"></div>
+  </div>
+  <div class="cat-grid">
+    <a href="#rice" class="ccat rice rv d1">
+      <span class="cbadge">3 Items</span>
+      <div class="ccat-top">
+        <img src="https://i.ibb.co/wFRGvPvQ/rice-bag.png" alt="Rice">
+      </div>
+      <div class="ccat-body">
+        <div class="ccat-name">Premium BPT Rice</div>
+        <div class="ccat-desc">Hand-harvested village paddy fields</div>
+        <div class="ccat-ft">
+          <div class="ccat-from">From <strong>₹290</strong> / 5KG</div>
+          <div class="carr"><i class="fas fa-arrow-right"></i></div>
+        </div>
+      </div>
+    </a>
+    <a href="#minapappu" class="ccat urad rv d2">
+      <span class="cbadge">2 Items</span>
+      <div class="ccat-top">
+        <img src="https://i.ibb.co/qLhm6r9x/urad-bag.png" alt="Urad Dal">
+      </div>
+      <div class="ccat-body">
+        <div class="ccat-name">Fresh Urad Dal</div>
+        <div class="ccat-desc">Perfect for idli, dosa &amp; vada</div>
+        <div class="ccat-ft">
+          <div class="ccat-from">From <strong>₹110</strong> / KG</div>
+          <div class="carr" style="background:#6366F1"><i class="fas fa-arrow-right"></i></div>
+        </div>
+      </div>
+    </a>
+    <a href="#pickles" class="ccat pickles rv d3">
+      <span class="cbadge">12 Items</span>
+      <div class="ccat-top">
+        <img src="https://i.ibb.co/B54brGHF/mixed.png" alt="Pickles">
+      </div>
+      <div class="ccat-body">
+        <div class="ccat-name">Homemade Pickles</div>
+        <div class="ccat-desc">Grandmother's authentic recipes</div>
+        <div class="ccat-ft">
+          <div class="ccat-from">From <strong>₹160</strong> / 250g</div>
+          <div class="carr" style="background:#EC4899"><i class="fas fa-arrow-right"></i></div>
+        </div>
+      </div>
+    </a>
+    <a href="#karam" class="ccat karam rv d4">
+      <span class="cbadge">8 Items</span>
+      <div class="ccat-top">
+        <img src="https://i.ibb.co/0p3gT5ZF/all-mix.png" alt="Karam">
+      </div>
+      <div class="ccat-body">
+        <div class="ccat-name">Karam Podi</div>
+        <div class="ccat-desc">Freshly ground spice powders</div>
+        <div class="ccat-ft">
+          <div class="ccat-from">From <strong>₹85</strong> / 100g</div>
+          <div class="carr" style="background:#EA580C"><i class="fas fa-arrow-right"></i></div>
+        </div>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- PROMISE BAR -->
+<div class="prom">
+  <div class="prom-in">
+    <div class="pitem rv"><div class="picon">🚫</div><div class="ptext"><strong>No Mixing</strong><span>100% pure, single-source</span></div></div>
+    <div class="pitem rv d1"><div class="picon">🌿</div><div class="ptext"><strong>No Chemicals</strong><span>Zero preservatives or additives</span></div></div>
+    <div class="pitem rv d2"><div class="picon">⚖️</div><div class="ptext"><strong>Honest Weight</strong><span>Every pack precisely weighed</span></div></div>
+    <div class="pitem rv d3"><div class="picon">🚚</div><div class="ptext"><strong>Free Delivery</strong><span>All across Hyderabad</span></div></div>
+  </div>
+</div>
+
+<!-- AUTO SCROLL PRODUCTS -->
+<div class="scrollsec">
+  <div class="scroll-head rv">
+    <div>
+      <div class="seye" style="text-align:left;display:inline-flex"><i class="fas fa-fire"></i> Best Sellers</div>
+      <h2 class="stitle" style="text-align:left">Scroll &amp; <span class="hl">Discover</span></h2>
+    </div>
+    <a href="#categories" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+  </div>
+  <div class="scroll-wrap">
+    <div class="scroll-track">
+      <div class="pc"><div class="pc-img" style="background:linear-gradient(135deg,#FEF9E7,#FDE68A)"><span class="pc-disc">17% OFF</span><span class="pc-tag">HEALTHY</span><img src="https://i.ibb.co/zDm822J/brow.png" alt="Brown Rice"></div><div class="pc-body"><div class="pc-nm">Brown Rice</div><div class="pc-tel tel">బ్రౌన్ రైస్</div><div class="pc-pr"><span class="cur">₹290</span><span class="orig">₹350</span></div><a class="pc-btn" href="https://wa.me/917993822600?text=Brown Rice 5KG - ₹290" target="_blank"><i class="fab fa-whatsapp"></i> Order</a></div></div>
+      <div class="pc"><div class="pc-img" style="background:linear-gradient(135deg,#FEF9E7,#FDE68A)"><span class="pc-disc">17% OFF</span><span class="pc-tag">BESTSELLER</span><img src="https://i.ibb.co/JWx6g5fD/smibr.png" alt="Semi Polished"></div><div class="pc-body"><div class="pc-nm">Semi Polished Rice</div><div class="pc-tel tel">సెమీ పాలిష్డ్</div><div class="pc-pr"><span class="cur">₹310</span><span class="orig">₹375</span></div><a class="pc-btn" href="https://wa.me/917993822600?text=Semi Polished 5KG - ₹310" target="_blank"><i class="fab fa-whatsapp"></i> Order</a></div></div>
+      <div class="pc"><div class="pc-img" style="background:linear-gradient(135deg,#FEF9E7,#FDE68A)"><span class="pc-disc">17% OFF</span><span class="pc-tag">PREMIUM</span><img src="https://i.ibb.co/RpW7Z8FZ/fullw.png" alt="Full Polished"></div><div class="pc-body"><div class="pc-nm">Full Polished Rice</div><div class="pc-tel tel">ఫుల్ పాలిష్డ్</div><div class="pc-pr"><span class="cur">₹340</span><span class="orig">₹410</span></div><a class="pc-btn" href="https://wa.me/917993822600?text=Full Polished 5KG - ₹340" target="_blank"><i class="fab fa-whatsapp"></i> Order</a></div></div>
+      <div class="pc"><div class="pc-img" style="background:linear-gradient(135deg,#EEF2FF,#C7D2FE)"><span class="pc-disc">32% OFF</span><img src="https://i.ibb.co/qLhm6r9x/urad-bag.png" alt="Urad Round"></div><div class="pc-body"><div class="pc-nm">Urad Round</div><div class="pc-tel tel">మినప గుల్లు</div><div class="pc-pr"><span class="cur">₹125</span><span class="orig">₹185</span></div><a class="pc-btn" href="https://wa.me/917993822600?text=Urad Round 1KG - ₹125" target="_blank"><i class="fab fa-whatsapp"></i> Order</a></div></div>
+      <div class="pc"><div class="pc-img" style="background:linear-gradient(135deg,#EEF2FF,#C7D2FE)"><span class="pc-disc">29% OFF</span><img src="https://i.ibb.co/jNtB0qz/Urad-Dal-Split.png" alt="Urad Split"></div><div class="pc-body"><div class="pc-nm">Urad Dal Split</div><div class="pc-tel tel">మినపపప్పు</div><div class="pc-pr"><span class="cur">₹110</span><span class="orig">₹155</span></div><a class="pc-btn" href="https://wa.me/917993822600?text=Urad Split 1KG - ₹110" target="_blank"><i class="fab fa-whatsapp"></i> Order</a></div></div>
+      <div class="pc"><div class="pc-img" style="background:linear-gradient(135deg,#FDF2F8,#FBCFE8)"><span class="pc-disc">20% OFF</span><img src="https://i.ibb.co/BVx09zvb/mango.png" alt="Avakaya"></div><div class="pc-body"><div class="pc-nm">Avakaya Pickle</div><div class="pc-tel tel">ఆవకాయ</div><div class="pc-pr"><span class="cur">₹180</span><span class="orig">₹225</span></div><a class="pc-btn" href="https://wa.me/917993822600?text=Avakaya 250g - ₹180" target="_blank"><i class="fab fa-whatsapp"></i> Order</a></div></div>
+      <div class="pc"><div class="pc-img" style="background:linear-gradient(135deg,#FDF2F8,#FBCFE8)"><span class="pc-disc">20% OFF</span><img src="https://i.ibb.co/yn6LYRDX/chicken.png" alt="Chicken Pickle"></div><div class="pc-body"><div class="pc-nm">Chicken Pickle</div><div class="pc-tel tel">చికెన్ పికిల్</div><div class="pc-pr"><span class="cur">₹280</span><span class="orig">₹350</span></div><a class="pc-btn" href="https://wa.me/917993822600?text=Chicken Pickle 250g - ₹280" target="_blank"><i class="fab fa-whatsapp"></i> Order</a></div></div>
+      <div class="pc"><div class="pc-img" style="background:linear-gradient(135deg,#FFF7ED,#FED7AA)"><span class="pc-disc">23% OFF</span><img src="https://i.ibb.co/0RRS4sf7/vepudu.png" alt="Vepudu Karam"></div><div class="pc-body"><div class="pc-nm">Vepudu Karam</div><div class="pc-tel tel">వేపుడు కారం</div><div class="pc-pr"><span class="cur">₹85</span><span class="orig">₹110</span></div><a class="pc-btn" href="https://wa.me/917993822600?text=Vepudu Karam 100g - ₹85" target="_blank"><i class="fab fa-whatsapp"></i> Order</a></div></div>
+      <div class="pc"><div class="pc-img" style="background:linear-gradient(135deg,#FDF2F8,#FBCFE8)"><img src="https://i.ibb.co/LXpxxrVS/mutton.png" alt="Mutton"></div><div class="pc-body"><div class="pc-nm">Mutton Pickle</div><div class="pc-tel tel">మటన్ పికిల్</div><div class="pc-pr"><span class="cur">₹550</span><span class="orig">₹680</span></div><a class="pc-btn" href="https://wa.me/917993822600?text=Mutton Pickle 250g - ₹550" target="_blank"><i class="fab fa-whatsapp"></i> Order</a></div></div>
+      <div class="pc"><div class="pc-img" style="background:linear-gradient(135deg,#FFF7ED,#FED7AA)"><img src="https://i.ibb.co/Vp9nny5h/karivepaku.png" alt="Karivepaku"></div><div class="pc-body"><div class="pc-nm">Karivepaku Podi</div><div class="pc-tel tel">కరివేపాకు పొడి</div><div class="pc-pr"><span class="cur">₹85</span><span class="orig">₹110</span></div><a class="pc-btn" href="https://wa.me/917993822600?text=Karivepaku Podi 100g - ₹85" target="_blank"><i class="fab fa-whatsapp"></i> Order</a></div></div>
+      <!-- duplicates for seamless loop -->
+      <div class="pc"><div class="pc-img" style="background:linear-gradient(135deg,#FEF9E7,#FDE68A)"><span class="pc-disc">17% OFF</span><span class="pc-tag">HEALTHY</span><img src="https://i.ibb.co/zDm822J/brow.png" alt="Brown Rice"></div><div class="pc-body"><div class="pc-nm">Brown Rice</div><div class="pc-tel tel">బ్రౌన్ రైస్</div><div class="pc-pr"><span class="cur">₹290</span><span class="orig">₹350</span></div><a class="pc-btn" href="https://wa.me/917993822600?text=Brown Rice 5KG - ₹290" target="_blank"><i class="fab fa-whatsapp"></i> Order</a></div></div>
+      <div class="pc"><div class="pc-img" style="background:linear-gradient(135deg,#FEF9E7,#FDE68A)"><span class="pc-disc">17% OFF</span><span class="pc-tag">BESTSELLER</span><img src="https://i.ibb.co/JWx6g5fD/smibr.png" alt="Semi"></div><div class="pc-body"><div class="pc-nm">Semi Polished Rice</div><div class="pc-tel tel">సెమీ పాలిష్డ్</div><div class="pc-pr"><span class="cur">₹310</span><span class="orig">₹375</span></div><a class="pc-btn" href="https://wa.me/917993822600?text=Semi Polished 5KG - ₹310" target="_blank"><i class="fab fa-whatsapp"></i> Order</a></div></div>
+      <div class="pc"><div class="pc-img" style="background:linear-gradient(135deg,#EEF2FF,#C7D2FE)"><span class="pc-disc">29% OFF</span><img src="https://i.ibb.co/jNtB0qz/Urad-Dal-Split.png" alt="Urad Split"></div><div class="pc-body"><div class="pc-nm">Urad Dal Split</div><div class="pc-tel tel">మినపపప్పు</div><div class="pc-pr"><span class="cur">₹110</span><span class="orig">₹155</span></div><a class="pc-btn" href="https://wa.me/917993822600?text=Urad Split 1KG - ₹110" target="_blank"><i class="fab fa-whatsapp"></i> Order</a></div></div>
+      <div class="pc"><div class="pc-img" style="background:linear-gradient(135deg,#FDF2F8,#FBCFE8)"><span class="pc-disc">20% OFF</span><img src="https://i.ibb.co/yFG8wSz1/gongura.png" alt="Gongura"></div><div class="pc-body"><div class="pc-nm">Gongura Pickle</div><div class="pc-tel tel">గోంగూర పచ్చడి</div><div class="pc-pr"><span class="cur">₹170</span><span class="orig">₹215</span></div><a class="pc-btn" href="https://wa.me/917993822600?text=Gongura 250g - ₹170" target="_blank"><i class="fab fa-whatsapp"></i> Order</a></div></div>
+      <div class="pc"><div class="pc-img" style="background:linear-gradient(135deg,#FFF7ED,#FED7AA)"><img src="https://i.ibb.co/SHTHJg2/kobbari.png" alt="Kobbari"></div><div class="pc-body"><div class="pc-nm">Kobbari Karam</div><div class="pc-tel tel">కొబ్బరి కారం</div><div class="pc-pr"><span class="cur">₹85</span><span class="orig">₹110</span></div><a class="pc-btn" href="https://wa.me/917993822600?text=Kobbari Karam 100g - ₹85" target="_blank"><i class="fab fa-whatsapp"></i> Order</a></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- RICE SECTION -->
+<section class="rice-sec" id="rice">
+  <div class="shead rv">
+    <div class="seye"><i class="fas fa-seedling"></i> Farm Fresh</div>
+    <h2 class="stitle">Premium BPT <span class="hl">Sannalu Rice</span></h2>
+    <p class="ssub">Hand-harvested from our village paddy fields — 3 polish levels</p>
+    <div class="sline"></div>
+  </div>
+  <div class="pg">
+    <div class="pcard rv d1">
+      <div class="pcard-top rbg"><span class="pd">17% OFF</span><span class="plbl" style="background:#059669">HEALTHY</span><img src="https://i.ibb.co/zDm822J/brow.png" alt="Brown Rice"></div>
+      <div class="pcard-body">
+        <span class="ptag" style="background:#059669">🌾 UNPOLISHED</span>
+        <h3 class="pcard-nm">Brown Rice</h3><p class="pcard-tel tel">బ్రౌన్ రైస్</p>
+        <p class="pcard-desc">Unpolished whole grain with natural bran layer intact. Rich in fiber, vitamins &amp; minerals. Best for health-conscious families.</p>
+        <div class="sizes"><span class="spill">5 KG — ₹290</span><span class="spill">25 KG — ₹1,450</span><span class="spill">50 KG — ₹2,900</span></div>
+        <div class="prow"><span class="cur">₹290</span><span class="orig">₹350</span></div>
+        <a class="obt" href="https://wa.me/917993822600?text=Hi, I want Brown Rice 5KG - ₹290" target="_blank"><i class="fab fa-whatsapp"></i> Order Now</a>
+      </div>
+    </div>
+    <div class="pcard rv d2">
+      <div class="pcard-top rbg"><span class="pd">17% OFF</span><span class="plbl" style="background:#D97706">BESTSELLER</span><img src="https://i.ibb.co/JWx6g5fD/smibr.png" alt="Semi Polished"></div>
+      <div class="pcard-body">
+        <span class="ptag" style="background:#D97706">⭐ MOST POPULAR</span>
+        <h3 class="pcard-nm">Semi Polished Rice</h3><p class="pcard-tel tel">సెమీ పాలిష్డ్ రైస్</p>
+        <p class="pcard-desc">Balanced — retains natural bran for nutrition with softer texture. Best of both worlds for the entire family.</p>
+        <div class="sizes"><span class="spill">5 KG — ₹310</span><span class="spill">25 KG — ₹1,550</span><span class="spill">50 KG — ₹3,100</span></div>
+        <div class="prow"><span class="cur">₹310</span><span class="orig">₹375</span></div>
+        <a class="obt" href="https://wa.me/917993822600?text=Hi, I want Semi Polished Rice 5KG - ₹310" target="_blank"><i class="fab fa-whatsapp"></i> Order Now</a>
+      </div>
+    </div>
+    <div class="pcard rv d3">
+      <div class="pcard-top rbg"><span class="pd">17% OFF</span><span class="plbl" style="background:#7C3AED">PREMIUM</span><img src="https://i.ibb.co/RpW7Z8FZ/fullw.png" alt="Full Polished"></div>
+      <div class="pcard-body">
+        <span class="ptag" style="background:#7C3AED">💎 PREMIUM</span>
+        <h3 class="pcard-nm">Full Polished Rice</h3><p class="pcard-tel tel">ఫుల్ పాలిష్డ్ రైస్</p>
+        <p class="pcard-desc">Premium pure white rice. Ideal for biryanis, pulao &amp; special occasions. Cooks to perfect fluffy grains every time.</p>
+        <div class="sizes"><span class="spill">5 KG — ₹340</span><span class="spill">25 KG — ₹1,700</span><span class="spill">50 KG — ₹3,400</span></div>
+        <div class="prow"><span class="cur">₹340</span><span class="orig">₹410</span></div>
+        <a class="obt" href="https://wa.me/917993822600?text=Hi, I want Full Polished Rice 5KG - ₹340" target="_blank"><i class="fab fa-whatsapp"></i> Order Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- URAD DAL -->
+<section class="sec" id="minapappu" style="background:linear-gradient(175deg,#EEF2FF 0%,#E0E7FF 100%)">
+  <div class="shead rv">
+    <div class="seye"><i class="fas fa-circle-dot"></i> Freshly Harvested</div>
+    <h2 class="stitle">Fresh <span class="hl">Urad Dal</span></h2>
+    <p class="ssub">Perfect for soft idli, crispy dosa &amp; crunchy vada</p>
+    <div class="sline"></div>
+  </div>
+  <div class="pg">
+    <div class="pcard rv d1">
+      <div class="pcard-top ubg"><span class="pd">32% OFF</span><img src="https://i.ibb.co/qLhm6r9x/urad-bag.png" alt="Urad Round"></div>
+      <div class="pcard-body">
+        <span class="ptag" style="background:#78716C">🥣 FOR VADA</span>
+        <h3 class="pcard-nm">Urad Round</h3><p class="pcard-tel tel">మినప గుల్లు</p>
+        <p class="pcard-desc">Whole round urad with skin intact. Makes the crispiest medu vada &amp; rich creamy dal makhani.</p>
+        <div class="sizes">
+          <span class="spill" style="background:#E0E7FF;color:#6366F1">1 KG — ₹125</span>
+          <span class="spill" style="background:#E0E7FF;color:#6366F1">2 KG — ₹220</span>
+          <span class="spill" style="background:#E0E7FF;color:#6366F1">5 KG — ₹650</span>
+        </div>
+        <div class="prow"><span class="cur">₹125</span><span class="orig">₹185</span></div>
+        <a class="obt" href="https://wa.me/917993822600?text=Hi, I want Urad Round 1KG - ₹125" target="_blank"><i class="fab fa-whatsapp"></i> Order Now</a>
+      </div>
+    </div>
+    <div class="pcard rv d2">
+      <div class="pcard-top ubg"><span class="pd">29% OFF</span><img src="https://i.ibb.co/jNtB0qz/Urad-Dal-Split.png" alt="Urad Split"></div>
+      <div class="pcard-body">
+        <span class="ptag" style="background:#2563EB">🥞 IDLI &amp; DOSA</span>
+        <h3 class="pcard-nm">Urad Dal Split</h3><p class="pcard-tel tel">మినపపప్పు</p>
+        <p class="pcard-desc">Premium split urad dal. Makes the softest idlis &amp; golden crispy dosas. A family favourite every morning!</p>
+        <div class="sizes">
+          <span class="spill" style="background:#E0E7FF;color:#6366F1">1 KG — ₹110</span>
+          <span class="spill" style="background:#E0E7FF;color:#6366F1">2 KG — ₹220</span>
+          <span class="spill" style="background:#E0E7FF;color:#6366F1">5 KG — ₹550</span>
+        </div>
+        <div class="prow"><span class="cur">₹110</span><span class="orig">₹155</span></div>
+        <a class="obt" href="https://wa.me/917993822600?text=Hi, I want Urad Dal Split 1KG - ₹110" target="_blank"><i class="fab fa-whatsapp"></i> Order Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PICKLES -->
+<section class="pik-sec" id="pickles">
+  <div class="shead rv">
+    <div class="seye"><i class="fas fa-jar"></i> Grandmother's Recipe</div>
+    <h2 class="stitle">Homemade <span class="hl">Pickles</span></h2>
+    <p class="ssub">Pure gingelly oil • No preservatives • Made on order • 12 varieties</p>
+    <div class="sline"></div>
+  </div>
+  <div class="ptabs">
+    <button class="ptab active" onclick="fp('all',this)">All Pickles</button>
+    <button class="ptab" onclick="fp('veg',this)">🥬 Veg Pickles</button>
+    <button class="ptab" onclick="fp('nonveg',this)">🍗 Non-Veg</button>
+    <button class="ptab" onclick="fp('mango',this)">🥭 Mango</button>
+  </div>
+  <div class="pikgrid" id="pikgrid">
+    <div class="pikc veg" data-c="mango"><img src="https://i.ibb.co/BVx09zvb/mango.png" alt="Avakaya"><div><div class="pin-name">Avakaya</div><div class="pin-tel tel">ఆవకాయ</div><div class="pin-pr"><span class="cur">₹180</span><span class="orig">₹225</span></div><div class="pin-sz"><span class="pisk">250g</span><span class="pisk">500g</span><span class="pisk">1kg</span></div></div></div>
+    <div class="pikc veg" data-c="mango"><img src="https://i.ibb.co/BVx09zvb/mango.png" alt="Magaya"><div><div class="pin-name">Magaya</div><div class="pin-tel tel">మాగాయ</div><div class="pin-pr"><span class="cur">₹180</span><span class="orig">₹225</span></div><div class="pin-sz"><span class="pisk">250g</span><span class="pisk">500g</span><span class="pisk">1kg</span></div></div></div>
+    <div class="pikc veg" data-c="veg"><img src="https://i.ibb.co/8nkpcBC2/lemon.png" alt="Lemon"><div><div class="pin-name">Lemon Pickle</div><div class="pin-tel tel">నిమ్మకాయ పచ్చడి</div><div class="pin-pr"><span class="cur">₹170</span><span class="orig">₹215</span></div><div class="pin-sz"><span class="pisk">250g</span><span class="pisk">500g</span><span class="pisk">1kg</span></div></div></div>
+    <div class="pikc veg" data-c="veg"><img src="https://i.ibb.co/yFG8wSz1/gongura.png" alt="Gongura"><div><div class="pin-name">Gongura Pickle</div><div class="pin-tel tel">గోంగూర పచ్చడి</div><div class="pin-pr"><span class="cur">₹170</span><span class="orig">₹215</span></div><div class="pin-sz"><span class="pisk">250g</span><span class="pisk">500g</span><span class="pisk">1kg</span></div></div></div>
+    <div class="pikc veg" data-c="veg"><img src="https://i.ibb.co/tTQGtVP3/tomato.png" alt="Tomato"><div><div class="pin-name">Tomato Pickle</div><div class="pin-tel tel">టమాట పచ్చడి</div><div class="pin-pr"><span class="cur">₹160</span><span class="orig">₹200</span></div><div class="pin-sz"><span class="pisk">250g</span><span class="pisk">500g</span><span class="pisk">1kg</span></div></div></div>
+    <div class="pikc veg" data-c="veg"><img src="https://i.ibb.co/99XFpDSC/Brinjal.png" alt="Brinjal"><div><div class="pin-name">Brinjal Pickle</div><div class="pin-tel tel">వంకాయ పచ్చడి</div><div class="pin-pr"><span class="cur">₹160</span><span class="orig">₹200</span></div><div class="pin-sz"><span class="pisk">250g</span><span class="pisk">500g</span><span class="pisk">1kg</span></div></div></div>
+    <div class="pikc veg" data-c="veg"><img src="https://i.ibb.co/RpFkNTJ3/redchilli.png" alt="Red Chilli"><div><div class="pin-name">Red Chilli Pickle</div><div class="pin-tel tel">ఎండు మిర్చి పచ్చడి</div><div class="pin-pr"><span class="cur">₹160</span><span class="orig">₹200</span></div><div class="pin-sz"><span class="pisk">250g</span><span class="pisk">500g</span><span class="pisk">1kg</span></div></div></div>
+    <div class="pikc veg" data-c="veg"><img src="https://i.ibb.co/HLDbsG3N/drumstick.png" alt="Drumstick"><div><div class="pin-name">Drumstick Pickle</div><div class="pin-tel tel">మునగకాయ పచ్చడి</div><div class="pin-pr"><span class="cur">₹160</span><span class="orig">₹200</span></div><div class="pin-sz"><span class="pisk">250g</span><span class="pisk">500g</span><span class="pisk">1kg</span></div></div></div>
+    <div class="pikc" data-c="nonveg"><img src="https://i.ibb.co/yn6LYRDX/chicken.png" alt="Chicken"><div><div class="pin-name">Chicken Pickle</div><div class="pin-tel tel">చికెన్ పికిల్</div><div class="pin-pr"><span class="cur">₹280</span><span class="orig">₹350</span></div><div class="pin-sz"><span class="pisk">250g</span><span class="pisk">500g</span><span class="pisk">1kg</span></div></div></div>
+    <div class="pikc" data-c="nonveg"><img src="https://i.ibb.co/LXpxxrVS/mutton.png" alt="Mutton"><div><div class="pin-name">Mutton Pickle</div><div class="pin-tel tel">మటన్ పికిల్</div><div class="pin-pr"><span class="cur">₹550</span><span class="orig">₹680</span></div><div class="pin-sz"><span class="pisk">250g</span><span class="pisk">500g</span><span class="pisk">1kg</span></div></div></div>
+    <div class="pikc" data-c="nonveg"><img src="https://i.ibb.co/B211Hrxw/fish.png" alt="Fish"><div><div class="pin-name">Fish Pickle</div><div class="pin-tel tel">చేప పికిల్</div><div class="pin-pr"><span class="cur">₹240</span><span class="orig">₹300</span></div><div class="pin-sz"><span class="pisk">250g</span><span class="pisk">500g</span><span class="pisk">1kg</span></div></div></div>
+    <div class="pikc" data-c="nonveg"><img src="https://i.ibb.co/pjm8MhfB/prawn.png" alt="Prawn"><div><div class="pin-name">Prawn Pickle</div><div class="pin-tel tel">రొయ్యల పికిల్</div><div class="pin-pr"><span class="cur">₹380</span><span class="orig">₹480</span></div><div class="pin-sz"><span class="pisk">250g</span><span class="pisk">500g</span><span class="pisk">1kg</span></div></div></div>
+  </div>
+</section>
+
+<!-- KARAM PODI -->
+<section class="karam-sec" id="karam">
+  <div class="shead rv">
+    <div class="seye"><i class="fas fa-pepper-hot"></i> Freshly Ground</div>
+    <h2 class="stitle">Karam <span class="hl">Podi Collection</span></h2>
+    <p class="ssub">8 traditional flavours • All ₹85 for 100g • Free Delivery</p>
+    <div class="sline"></div>
+  </div>
+  <div class="kgrid">
+    <div class="kc rv d1"><img src="https://i.ibb.co/0RRS4sf7/vepudu.png" alt="Vepudu"><div class="kc-nm">Vepudu Karam</div><div class="kc-tel tel">వేపుడు కారం</div><div class="kc-pr"><span class="cur">₹85</span><span class="orig">₹110</span></div><div class="kc-sz">100g / 250g / 500g</div><a class="kc-btn" href="https://wa.me/917993822600?text=Vepudu Karam 100g - ₹85" target="_blank">Order via WhatsApp</a></div>
+    <div class="kc rv d2"><img src="https://i.ibb.co/rKdW0zXz/pappula.png" alt="Kandi"><div class="kc-nm">Kandi Podi</div><div class="kc-tel tel">కంది పొడి</div><div class="kc-pr"><span class="cur">₹85</span><span class="orig">₹110</span></div><div class="kc-sz">100g / 250g / 500g</div><a class="kc-btn" href="https://wa.me/917993822600?text=Kandi Podi 100g - ₹85" target="_blank">Order via WhatsApp</a></div>
+    <div class="kc rv d3"><img src="https://i.ibb.co/rKdW0zXz/pappula.png" alt="Pappula"><div class="kc-nm">Pappula Podi</div><div class="kc-tel tel">పప్పుల పొడి</div><div class="kc-pr"><span class="cur">₹85</span><span class="orig">₹110</span></div><div class="kc-sz">100g / 250g / 500g</div><a class="kc-btn" href="https://wa.me/917993822600?text=Pappula Podi 100g - ₹85" target="_blank">Order via WhatsApp</a></div>
+    <div class="kc rv d1"><img src="https://i.ibb.co/5XWt8my5/nvula.png" alt="Nuvvula"><div class="kc-nm">Nuvvula Karam</div><div class="kc-tel tel">నువ్వుల కారం</div><div class="kc-pr"><span class="cur">₹85</span><span class="orig">₹110</span></div><div class="kc-sz">100g / 250g / 500g</div><a class="kc-btn" href="https://wa.me/917993822600?text=Nuvvula Karam 100g - ₹85" target="_blank">Order via WhatsApp</a></div>
+    <div class="kc rv d2"><img src="https://i.ibb.co/SHTHJg2/kobbari.png" alt="Kobbari"><div class="kc-nm">Kobbari Karam</div><div class="kc-tel tel">కొబ్బరి కారం</div><div class="kc-pr"><span class="cur">₹85</span><span class="orig">₹110</span></div><div class="kc-sz">100g / 250g / 500g</div><a class="kc-btn" href="https://wa.me/917993822600?text=Kobbari Karam 100g - ₹85" target="_blank">Order via WhatsApp</a></div>
+    <div class="kc rv d3"><img src="https://i.ibb.co/Vp9nny5h/karivepaku.png" alt="Karivepaku"><div class="kc-nm">Karivepaku Podi</div><div class="kc-tel tel">కరివేపాకు పొడి</div><div class="kc-pr"><span class="cur">₹85</span><span class="orig">₹110</span></div><div class="kc-sz">100g / 250g / 500g</div><a class="kc-btn" href="https://wa.me/917993822600?text=Karivepaku Podi 100g - ₹85" target="_blank">Order via WhatsApp</a></div>
+    <div class="kc rv d1"><img src="https://i.ibb.co/hJQrdwsv/mungaku.png" alt="Munagaku"><div class="kc-nm">Munagaku Podi</div><div class="kc-tel tel">మునగాకు పొడి</div><div class="kc-pr"><span class="cur">₹85</span><span class="orig">₹110</span></div><div class="kc-sz">100g / 250g / 500g</div><a class="kc-btn" href="https://wa.me/917993822600?text=Munagaku Podi 100g - ₹85" target="_blank">Order via WhatsApp</a></div>
+    <div class="kc rv d2"><img src="https://i.ibb.co/LhzXN19X/gongura-podi.png" alt="Gongura Karam"><div class="kc-nm">Gongura Karam</div><div class="kc-tel tel">గోంగూర కారం</div><div class="kc-pr"><span class="cur">₹85</span><span class="orig">₹110</span></div><div class="kc-sz">100g / 250g / 500g</div><a class="kc-btn" href="https://wa.me/917993822600?text=Gongura Karam 100g - ₹85" target="_blank">Order via WhatsApp</a></div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="why-sec">
+  <div class="shead rv">
+    <div class="seye"><i class="fas fa-shield-halved"></i> Our Promise</div>
+    <h2 class="stitle">Why Families <span class="hl">Choose BKGR</span></h2>
+    <div class="sline"></div>
+  </div>
+  <div class="wgrid">
+    <div class="wc rv d1"><div class="wicon">👩‍🍳</div><div class="wt">100% Homemade</div><div class="wd">Traditional recipes passed down through generations, made with love and care.</div></div>
+    <div class="wc rv d2"><div class="wicon">🌿</div><div class="wt">Pure Gingelly Oil</div><div class="wd">No refined oils or chemical additives in any of our pickles. Pure &amp; natural.</div></div>
+    <div class="wc rv d3"><div class="wicon">📦</div><div class="wt">Fresh Packing</div><div class="wd">Hygienic sealed packaging. Manufacture date = Your order date. Always fresh.</div></div>
+    <div class="wc rv d4"><div class="wicon">📅</div><div class="wt">Made on Order</div><div class="wd">We don't mass produce. Every order freshly prepared for maximum quality.</div></div>
+  </div>
+</section>
+
+<!-- DELIVERY -->
+<div class="del-sec">
+  <h3>🚚 Free Delivery Across Hyderabad</h3>
+  <p>Same day / next day delivery to all areas</p>
+  <div class="dtags">
+    <span class="dtag">Kukatpally</span><span class="dtag">KPHB</span><span class="dtag">Hitech City</span>
+    <span class="dtag">Madhapur</span><span class="dtag">Miyapur</span><span class="dtag">Gachibowli</span>
+    <span class="dtag">Kondapur</span><span class="dtag">Moosapet</span><span class="dtag">Chintal</span>
+    <span class="dtag">Manikonda</span><span class="dtag">Nizampet</span><span class="dtag">Bachupally</span>
+    <span class="dtag">Ameerpet</span><span class="dtag">SR Nagar</span><span class="dtag">Borabanda</span>
+    <span class="dtag">Erragadda</span>
+  </div>
+</div>
+
+<!-- ORDER -->
+<section class="ord-sec" id="contact">
+  <div class="ord-in">
+    <div class="oinfo rv">
+      <h2>Place Your Order Today</h2>
+      <p>Fill the form and we'll confirm your order via WhatsApp within minutes. Free delivery to your doorstep!</p>
+      <div class="ccs">
+        <div class="cc"><div class="ccico"><i class="fas fa-phone"></i></div><div class="ccinfo"><h4>Call Us</h4><a href="tel:+917993822600">+91 79938 22600</a></div></div>
+        <div class="cc"><div class="ccico"><i class="fab fa-whatsapp"></i></div><div class="ccinfo"><h4>WhatsApp</h4><a href="https://wa.me/917993822600" target="_blank">+91 79938 22600</a></div></div>
+        <div class="cc"><div class="ccico"><i class="fas fa-envelope"></i></div><div class="ccinfo"><h4>Email</h4><p>biyamkrishnagariproducts@gmail.com</p></div></div>
+        <div class="cc"><div class="ccico"><i class="fas fa-clock"></i></div><div class="ccinfo"><h4>Hours</h4><p>Monday – Sunday: 8 AM – 9 PM</p></div></div>
+      </div>
+      <div class="srow">
+        <a class="sb fb" href="https://www.facebook.com/BiyamKrishnaGariRice" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a class="sb ig" href="https://www.instagram.com/biyamkrishnagaririce/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a class="sb yt" href="https://www.youtube.com/@BIYAMKRISHNAGARIRICE" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a class="sb wa" href="https://wa.me/917993822600" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+    <div class="oform rv d2">
+      <h3>🛒 Quick Order Form</h3>
+      <p class="fsub">Fill details below — we'll confirm via WhatsApp instantly</p>
+      <form id="ofrm">
+        <div class="frow">
+          <div class="fg"><label>Full Name *</label><input type="text" id="cn" placeholder="Your name" required></div>
+          <div class="fg"><label>Phone Number *</label><input type="tel" id="cp" placeholder="Your phone" required></div>
+        </div>
+        <div class="fg" style="margin-bottom:16px">
+          <label>Delivery Area *</label>
+          <select id="ca" required>
+            <option value="">Select your area</option>
+            <option>Kukatpally</option><option>KPHB</option><option>Hitech City</option>
+            <option>Madhapur</option><option>Miyapur</option><option>Gachibowli</option>
+            <option>Kondapur</option><option>Moosapet</option><option>Chintal</option>
+            <option>Manikonda</option><option>Nizampet</option><option>Bachupally</option>
+            <option>Ameerpet</option><option>SR Nagar</option><option>Other Area</option>
+          </select>
+        </div>
+        <div class="ppick">
+          <div class="ppick-hd"><span>🛍️</span> Select Products &amp; Quantities</div>
+          <div class="pgrid">
+            <div class="pi"><div class="pi-hd"><span>🍚</span> Rice</div><select id="rs"><option value="">Not Required</option><option>Brown Rice 5KG - ₹290</option><option>Brown Rice 25KG - ₹1450</option><option>Brown Rice 50KG - ₹2900</option><option>Semi Polished 5KG - ₹310</option><option>Semi Polished 25KG - ₹1550</option><option>Semi Polished 50KG - ₹3100</option><option>Full Polished 5KG - ₹340</option><option>Full Polished 25KG - ₹1700</option><option>Full Polished 50KG - ₹3400</option></select></div>
+            <div class="pi"><div class="pi-hd"><span>🫘</span> Urad Dal</div><select id="us"><option value="">Not Required</option><option>Urad Round 1KG - ₹125</option><option>Urad Round 2KG - ₹220</option><option>Urad Round 5KG - ₹650</option><option>Urad Split 1KG - ₹110</option><option>Urad Split 2KG - ₹220</option><option>Urad Split 5KG - ₹550</option></select></div>
+            <div class="pi"><div class="pi-hd"><span>🥒</span> Pickles</div><select id="ps"><option value="">Not Required</option><optgroup label="Mango"><option>Avakaya 250g - ₹180</option><option>Magaya 250g - ₹180</option></optgroup><optgroup label="Veg"><option>Lemon 250g - ₹170</option><option>Gongura 250g - ₹170</option><option>Tomato 250g - ₹160</option><option>Brinjal 250g - ₹160</option><option>Red Chilli 250g - ₹160</option><option>Drumstick 250g - ₹160</option></optgroup><optgroup label="Non-Veg"><option>Chicken 250g - ₹280</option><option>Mutton 250g - ₹550</option><option>Fish 250g - ₹240</option><option>Prawn 250g - ₹380</option></optgroup></select></div>
+            <div class="pi"><div class="pi-hd"><span>🌶️</span> Karam Podi</div><select id="ks"><option value="">Not Required</option><option>Vepudu Karam 100g - ₹85</option><option>Kandi Podi 100g - ₹85</option><option>Pappula Podi 100g - ₹85</option><option>Nuvvula Karam 100g - ₹85</option><option>Kobbari Karam 100g - ₹85</option><option>Karivepaku Podi 100g - ₹85</option><option>Munagaku Podi 100g - ₹85</option><option>Gongura Karam 100g - ₹85</option></select></div>
+          </div>
+        </div>
+        <div class="fg" style="margin-bottom:16px"><label>Special Requests</label><textarea id="ct" rows="2" placeholder="Any other products or requirements…"></textarea></div>
+        <button type="submit" class="submt"><i class="fab fa-whatsapp"></i> Send Order via WhatsApp</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="ft">
+  <div class="ft-in">
+    <div class="ft-grid">
+      <div class="fb">
+        <a href="#home" class="logo" style="margin-bottom:14px">
+          <img src="https://i.ibb.co/ymtC805y/logo.jpg" alt="BKGR Logo" style="width:50px;height:50px;border-radius:12px;object-fit:cover">
+          <div class="logo-txt">
+            <div class="logo-nm" style="color:white">Biyam Krishna Gari</div>
+            <div class="logo-sb">Farm to Home</div>
+          </div>
+        </a>
+        <p>Pure village rice, homemade pickles &amp; karam podi delivered fresh to your home across Hyderabad. No middleman, no chemicals, always honest.</p>
+        <span class="ftag">Pure Food • Honest Weight • Farm Fresh</span>
+      </div>
+      <div class="fcol">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="#rice"><i class="fas fa-seedling"></i> Premium Rice</a></li>
+          <li><a href="#minapappu"><i class="fas fa-circle-dot"></i> Urad Dal</a></li>
+          <li><a href="#pickles"><i class="fas fa-jar"></i> Pickles</a></li>
+          <li><a href="#karam"><i class="fas fa-pepper-hot"></i> Karam Podi</a></li>
+        </ul>
+      </div>
+      <div class="fcol">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="#categories"><i class="fas fa-th-large"></i> All Products</a></li>
+          <li><a href="#contact"><i class="fas fa-phone"></i> Contact</a></li>
+          <li><a href="https://wa.me/917993822600" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp Order</a></li>
+        </ul>
+      </div>
+      <div class="fcol fct">
+        <h4>Contact</h4>
+        <p><i class="fas fa-phone" style="color:var(--goldf)"></i> <a href="tel:+917993822600">+91 79938 22600</a></p>
+        <p><i class="fab fa-whatsapp" style="color:#25D366"></i> <a href="https://wa.me/917993822600" target="_blank">Chat on WhatsApp</a></p>
+        <p><i class="fas fa-map-marker-alt" style="color:var(--goldf)"></i> Hyderabad, Telangana</p>
+        <p><i class="fas fa-clock" style="color:var(--goldf)"></i> 8 AM – 9 PM, All Days</p>
+        <div class="srow" style="margin-top:16px">
+          <a class="sb fb" href="https://www.facebook.com/BiyamKrishnaGariRice" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a class="sb ig" href="https://www.instagram.com/biyamkrishnagaririce/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a class="sb yt" href="https://www.youtube.com/@BIYAMKRISHNAGARIRICE" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a class="sb wa" href="https://wa.me/917993822600" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="ft-bot">
+      <p>© 2025 BKGR – Biyam Krishna Gari Products. All Rights Reserved.</p>
+      <p>Made with ❤️ for Telugu families in Hyderabad</p>
+    </div>
+  </div>
+</footer>
+
+<!-- WA FAB -->
+<a href="https://wa.me/917993822600" class="wafab" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<script>
+// Scroll reveal
+const rvEls=document.querySelectorAll('.rv');
+const ob=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('in')}),{threshold:.1});
+rvEls.forEach(e=>ob.observe(e));
+
+// Nav active
+const secs=document.querySelectorAll('section[id]');
+const ntabs=document.querySelectorAll('.ntab');
+window.addEventListener('scroll',()=>{
+  let cur='';
+  secs.forEach(s=>{if(window.scrollY>=s.offsetTop-130)cur=s.id});
+  ntabs.forEach(t=>{t.classList.remove('active');if(t.getAttribute('href')==='#'+cur)t.classList.add('active')});
+});
+
+// Smooth scroll
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click',e=>{
+    e.preventDefault();
+    const t=document.querySelector(a.getAttribute('href'));
+    if(t)t.scrollIntoView({behavior:'smooth',block:'start'});
+  });
+});
+
+// Pickle filter
+function fp(cat,btn){
+  document.querySelectorAll('.ptab').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.pikc').forEach(c=>{
+    c.style.display=(cat==='all'||c.dataset.c===cat)?'flex':'none';
+  });
+}
+
+// Order form
+document.getElementById('ofrm').addEventListener('submit',function(e){
+  e.preventDefault();
+  const n=document.getElementById('cn').value;
+  const p=document.getElementById('cp').value;
+  const a=document.getElementById('ca').value;
+  const r=document.getElementById('rs').value;
+  const u=document.getElementById('us').value;
+  const pk=document.getElementById('ps').value;
+  const k=document.getElementById('ks').value;
+  const note=document.getElementById('ct').value;
+  let msg=`*🛒 New Order — BKGR Products*%0A%0A`;
+  msg+=`👤 *Customer Details*%0AName: ${n}%0APhone: ${p}%0AArea: ${a}%0A%0A`;
+  msg+=`📦 *Products Ordered*%0A`;
+  if(r)msg+=`🍚 Rice: ${r}%0A`;
+  if(u)msg+=`🫘 Urad Dal: ${u}%0A`;
+  if(pk)msg+=`🥒 Pickle: ${pk}%0A`;
+  if(k)msg+=`🌶️ Karam: ${k}%0A`;
+  if(note)msg+=`%0A📝 *Note*: ${note}%0A`;
+  msg+=`%0A_via BKGR Website_`;
+  window.open(`https://wa.me/917993822600?text=${msg}`,'_blank');
+});
+</script>
+</body>
+</html>
